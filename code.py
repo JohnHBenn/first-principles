@@ -19,7 +19,6 @@ while True:
         if press:
             print("Pressed:", press)
             x, y = press
-            if x<=5 and x>=3 and y<=2:
-                trellis.pixels[x,y] = (20,0,0)
+            trellis.pixels[x,y] = (20,0,0)
 
     
